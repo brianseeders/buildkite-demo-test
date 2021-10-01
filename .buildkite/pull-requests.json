@@ -1,7 +1,12 @@
 {
-  "pipelineSlug": "buildkite-demo-test",
-  "repoOwner": "brianseeders",
-  "repoName": "buildkite-demo-test",
-  "enabled": "true",
-  "allowed_repo_permissions": ["admin"]
+  "jobs": [
+    {
+      "pipelineSlug": "buildkite-demo-test",
+      "repoOwner": "brianseeders",
+      "repoName": "buildkite-demo-test",
+      "enabled": "true",
+      "allowed_repo_permissions": ["admin", "write"],
+      "set_commit_status": "true"
+    }
+  ]
 }
