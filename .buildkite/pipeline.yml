@@ -1,3 +1,4 @@
 steps:
-  - command: ./hello.sh
+  - command: node hello.js
     label: 'Run Hello World'
+    parallelism: 10
