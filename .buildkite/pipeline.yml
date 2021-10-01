@@ -1,0 +1,3 @@
+steps:
+  - command: ./hello.sh
+    label: 'Run Hello World'
